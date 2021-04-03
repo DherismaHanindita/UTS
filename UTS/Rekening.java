@@ -26,6 +26,10 @@ public class Rekening {
         phone = d;
         email = e;
     }
+
+    Rekening() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     void Tampil(){
         System.out.println("No Rekening     = " + noRekening);
